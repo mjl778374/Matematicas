@@ -1,0 +1,19 @@
+Supongamos que se quiere tomar un grupo de 3 cartas de una baraja de 52 cartas. Esto se puede analizar creando un árbol de 3 niveles:
+
+1. En el primer nivel, se encuentran 52 ramas (cada carta es representada mediante una rama).
+2. De cada rama en el primer nivel, surgen 51 ramas en el segundo nivel (las 51 cartas restantes, excluyendo la que se tomó en el primer nivel).
+3. De cada rama en el segundo nivel, surgen 50 ramas en el tercer nivel (las 50 cartas restantes, excluyendo la que se tomó en el primer nivel y la que se tomó en el segundo nivel).
+
+Esto es igual a 52*51*50 = (52*51*50*49!)/49! = 52!/49! y ese es el número de permutaciones.
+
+Para saber el número de combinaciones, hay que dividir el número de permutaciones entre el número de veces que aparece cada combinación. El número de veces que aparece, o se repite, cada combinación es igual al número de permutaciones de cada combinación.
+
+Vamos a averiguar el número de veces que se puede permutar un grupo específico de tres cartas, mediante un árbol de tres niveles:
+
+1. En el primer nivel se crean tres ramas (cada carta es representada mediante una rama).
+2. De cada rama en el primer nivel, surgen 2 ramas en el segundo nivel (las 2 cartas restantes, excluyendo la que se tomó en el primer nivel).
+3. De cada rama en el segundo nivel, surge 1 rama en el tercer nivel (la carta restante)
+
+Esto es igual a 3*2*1 = 3! (y ese es el número de veces que se repite cada combinación).
+
+Por lo tanto, el número de combinaciones es igual al número de permutaciones entre el número de veces que se repite cada combinación y esto es igual a 52!/(49!*3!).

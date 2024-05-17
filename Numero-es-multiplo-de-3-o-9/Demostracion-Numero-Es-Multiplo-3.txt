@@ -1,0 +1,19 @@
+If you add 3 to a multiple of 9 you get the next sum (if when you add 3 to the number it doesn't change the tens digit):
+
+9*x + 3 = 3*(3*x + 1) that is a multiple of 3.
+
+If you add 6 to a multiple of 9 you get the next sum (if when you add 6 to the number it doesn't change the tens digit):
+
+9*x + 6 = 3*(3*x + 2) that is a multiple of 3.
+
+If you subtract 3 from a multiple of 9 you get the next sum (if when you subtract 3 from the number it doesn't change the tens digit):
+
+9*x - 3 = 3*(3*x - 1) that is a multiple of 3.
+
+If you subtract 6 from a multiple of 9 you get the next sum (if when you subtract 6 from the number it doesn't change the tens digit):
+
+9*x - 6 = 3*(3*x - 2) that is a multiple of 3.
+
+Finally, a multiple of 9 is also a multiple of 3.
+
+9*x = 3*(3*x)
