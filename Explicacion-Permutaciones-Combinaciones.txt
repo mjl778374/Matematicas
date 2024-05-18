@@ -17,3 +17,9 @@ Vamos a averiguar el número de veces que se puede permutar un grupo específico
 Esto es igual a 3*2*1 = 3! (y ese es el número de veces que se repite cada combinación).
 
 Por lo tanto, el número de combinaciones es igual al número de permutaciones entre el número de veces que se repite cada combinación y esto es igual a 52!/(49!*3!).
+
+P = Permutaciones.
+C = Combinaciones.
+P/C = Permutaciones por Combinación, (o bien, número de veces que se repite cada combinación).
+
+=> C = P/(P/C) = P*(C/P) = C.
